@@ -19,12 +19,13 @@
 {    
     AMArrayOperation *myArrayOperation1 = [[AMArrayOperation alloc] initWithDimension:4];
     AMArrayOperation *myArrayOperation2 = [[AMArrayOperation alloc] initWithDimension:4];
-    AMArrayOperation *myArrayOperation3 = [[AMArrayOperation alloc] initWithDimension:4];
-    AMArrayOperation *myArrayOperation4 = [[AMArrayOperation alloc] initWithDimension:4];
+    AMArrayOperation *myArrayOperation3 = [[AMArrayOperation alloc] initWithDimension:14];
+    AMArrayOperation *myArrayOperation4 = [[AMArrayOperation alloc] initWithDimension:9];
     AMArrayOperation *myArrayOperation5 = [[AMArrayOperation alloc] initWithDimension:4];
-    AMArrayOperation *myArrayOperation6 = [[AMArrayOperation alloc] initWithDimension:4];
+    AMArrayOperation *myArrayOperation6 = [[AMArrayOperation alloc] initWithDimension:7];
     AMArrayOperation *myArrayOperation7 = [[AMArrayOperation alloc] initWithDimension:4];
-    AMArrayOperation *myArrayOperation8 = [[AMArrayOperation alloc] initWithDimension:4];
+    AMArrayOperation *myArrayOperation8 = [[AMArrayOperation alloc] initWithDimension:15];
+    
     [myArrayOperation1 start];
     
     NSOperationQueue * myQueue = [[NSOperationQueue alloc] init];
